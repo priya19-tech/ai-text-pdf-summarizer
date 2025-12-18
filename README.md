@@ -48,3 +48,39 @@ ai-text-pdf-summarizer/
 └── README.md # Project documentation
 
 
+---
+
+## ▶️ How to Run the Project Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/priya19-tech/ai-text-pdf-summarizer.git
+cd ai-text-pdf-summarizer
+
+Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+Install Dependencies
+ pip install streamlit transformers torch sentencepiece PyPDF2
+
+Run the App
+streamlit run app.py
+
+The app will open in your browser at:
+
+http://localhost:8501
+
+🎯 Use Cases
+
+Summarizing long articles or reports
+
+Condensing academic PDFs
+
+Quick understanding of large documents
+
+Exam preparation & revision
+
+Content analysis
+
+
